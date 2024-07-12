@@ -1,4 +1,4 @@
-/*
+/*Use this for referece to other projects
 // Get the canvas element and its context
 const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
@@ -20,7 +20,7 @@ var canvas = document.querySelector('canvas');
 canvas.width = window.innerWidth;
 canvas.height= window.innerHeight;
 var c = canvas.getContext('2d');
-//c.fillRect has 4 arguments x,y width adn height relative to the top left
+//c.fillRect has 4 arguments x,y width and height relative to the top left
 c.fillStyle = 'rgba(255, 0, 0.1)';
 c.fillRect(100, 100, 100, 100);
 //fillstyle will take whatever prop is before it..
@@ -33,7 +33,7 @@ c.fillRect(300, 300, 100, 100);
 
  //line
  c.beginPath();
- //move to takes x and y coord. but will be invisible until we ///call stroke var..so bascially a starting point
+ //move to takes x and y coord. but will be invisible until we ///call stroke var..so basically a starting point
  c.moveTo(50, 300);
  c.lineTo(300, 100);
  c.lineTo(400,300);
@@ -51,8 +51,8 @@ c.fillRect(300, 300, 100, 100);
 //c.arc(300,300,30, 0, Math.PI * 2, false);
 //c.stroke();
 
-// to make multiple of something we will use a for loop;
-//but below will draw on top of each other so the locations need to be different 
+//To make multiple of something, we will use a for loop;
+//but below will draw on top of each other, so the locations need to be different 
 /*
 for (var i = 0; i < 3; i++) {
     c.beginPath();
